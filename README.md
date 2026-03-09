@@ -23,9 +23,11 @@ I chose the Gemini 3 Flash model for this project because it is optimized for qu
 ---
 
 ## Responsible AI Reflection
-The integration of Large Language Models into user-facing applications requires a commitment to Responsible AI principles. During the development of this assistant, primary focus was placed on transparency and data security. By utilizing environment variables (.env) for API key management, I ensured that sensitive credentials are never exposed in the version control history, preventing unauthorized access. 
+When I was building this assistant, I really tried to make sure everything was transparent and secure with the data stuff. Like, for the API keys, I put them in environment variables, you know, that .env file, so they wouldnt show up in the code history on version control. That way, no one sneaky could get to them easily.
 
-Furthermore, I addressed the risk of AI Hallucinations by implementing system instructions that guide the model toward professional and factual responses. However, as an ethical developer, I acknowledge that LLMs can reflect biases present in their training data. To mitigate this, the UI includes a "Clear Chat" feature to manage session data, and the application is designed with a "human-in-the-loop" philosophy, where users are encouraged to verify AI-generated content for critical tasks. This approach balances the efficiency of automated intelligence with the necessary oversight of human judgment.
+I also worried about those AI hallucinations, where the model just makes stuff up. So I added some system instructions to push it towards being more professional and sticking to facts. But honestly, large language models pick up biases from all the data they train on, and I get that as the developer. It seems like its hard to totally avoid that.
+
+To handle it better, the user interface has this Clear Chat button that lets people wipe the session data if they want. And the whole thing follows this idea of human in the loop, meaning users should check what the AI says, especially for important things. I think that keeps a balance between how fast AI can be and needing people to double check. Sometimes it feels a bit messy though, like not everything is perfectly covered yet.
 
 ---
 
