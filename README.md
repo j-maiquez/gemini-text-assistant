@@ -14,11 +14,11 @@ This application is a conversational AI tool designed to perform meaningful text
 * Deployment: Streamlit
 
 ### Rationale for Selection
-The Gemini 3 Flash model was selected for this project due to its specific optimization for latency and efficiency. 
+I chose the Gemini 3 Flash model for this project because it is optimized for quick response time and efficiency.
 
-1. High-Speed Inference: "Flash" models are designed to provide near-instantaneous responses, which is essential for maintaining a natural conversational flow in a web-based chat UI.
-2. Extended Context Window: With support for a massive token window, this model excels at analyzing long documents without losing track of earlier context.
-3. Cost-Effectiveness: It provides high-tier reasoning capabilities at a fraction of the computational cost of larger models, making it ideal for rapid prototyping and iterative development.
+1. Quick Answers: Flash models are designed to provide nearly instantaneous responses. This is important in maintaining the flow of a chat interface in a web-based application.
+2. Long Context: It has an extremely large token window. This enables it to read long documents without losing context.
+3. Lower Cost: It has robust reasoning capabilities at a fraction of the cost of the larger models.
 
 ---
 
